@@ -5,11 +5,11 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@tools:sample/avatars"
-        app:srcCompat="@drawable/logo1" />
+
+         />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -23,17 +23,17 @@
         >
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="322dp"
-            android:layout_height="32dp"
+            android:id="@+id/titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Pokemon unite"
             android:textSize="10dp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="323dp"
-            android:layout_height="35dp"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto "
             android:textSize="10dp"
             android:textStyle="bold" />

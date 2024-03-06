@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -149,6 +150,14 @@ public class MainActivity extends AppCompatActivity {
         map.put("img" ,String.valueOf(R.drawable.logo9));
 
 
+        SimpleAdapter monAdpter = new SimpleAdapter(this.getBaseContext(),listItem,R.layout.affichage_item, new String[] {"img","titre","description"}, new int[] {R.id.img,R.id.titre,R.id.description});
+
+        maListViewPerso.setAdapter(monAdpter);
+
+
 
     }
+
+
+
 }
